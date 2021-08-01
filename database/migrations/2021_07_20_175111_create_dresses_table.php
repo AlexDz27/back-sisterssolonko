@@ -17,7 +17,11 @@ class CreateDressesTable extends Migration
       $table->id();
 
       $table->string('name');
-      $table->string('image');
+
+      $table->string('display_photo');
+      $table->string('second_display_photo');
+      $table->json('photos');
+
       $table->boolean('in_stock');
 
       $table->timestamps();
