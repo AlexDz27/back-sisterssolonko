@@ -22,6 +22,10 @@ class CreateDressesTable extends Migration
       $table->string('second_display_photo');
       $table->json('photos');
 
+      $table->string('description');
+      $table->json('details');
+      $table->json('params');
+
       $table->boolean('in_stock');
 
       $table->timestamps();
