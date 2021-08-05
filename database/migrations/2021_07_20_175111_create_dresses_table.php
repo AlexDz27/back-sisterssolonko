@@ -24,7 +24,7 @@ class CreateDressesTable extends Migration
 
       $table->string('description');
       $table->json('details');
-      $table->json('params');
+      $table->json('sizes');
 
       $table->boolean('in_stock');
 

@@ -26,7 +26,7 @@ TEXT_BLOCK
 
       'display_photo' => 'woman-1_1.jpg',
       'second_display_photo' => 'woman-2_3.jpg',
-      'photos' => ['woman-1_1.jpg'],
+      'photos' => json_encode(['woman-1_1.jpg']),
 
       'description' => self::DESCRIPTION,
       'details' => json_encode([
@@ -35,8 +35,8 @@ TEXT_BLOCK
         'composition' => 'вискоза 80%, полиэстер 20%',
         'color' => 'чёрный в белый горошек'
       ]),
-      'params' => json_encode([
-        'size' => ['42', '44', '46', '48'],
+      'sizes' => json_encode([
+        'sizes' => ['42', '44', '46', '48'],
         'height' => '165 см'
       ]),
 
@@ -56,8 +56,8 @@ TEXT_BLOCK
         'composition' => 'вискоза 80%, полиэстер 20%',
         'color' => 'чёрный в белый горошек'
       ]),
-      'params' => json_encode([
-        'size' => ['42', '44', '46', '48'],
+      'sizes' => json_encode([
+        'sizes' => ['42', '44', '46', '48'],
         'height' => '165 см'
       ]),
 
@@ -77,8 +77,8 @@ TEXT_BLOCK
         'composition' => 'вискоза 80%, полиэстер 20%',
         'color' => 'чёрный в белый горошек'
       ]),
-      'params' => json_encode([
-        'size' => ['42', '44', '46', '48'],
+      'sizes' => json_encode([
+        'sizes' => ['42', '44', '46', '48'],
         'height' => '165 см'
       ]),
 
@@ -99,8 +99,8 @@ TEXT_BLOCK
         'composition' => 'вискоза 80%, полиэстер 20%',
         'color' => 'чёрный в белый горошек'
       ]),
-      'params' => json_encode([
-        'size' => ['42', '44', '46', '48'],
+      'sizes' => json_encode([
+        'sizes' => ['42', '44', '46', '48'],
         'height' => '165 см'
       ]),
 
@@ -120,8 +120,8 @@ TEXT_BLOCK
         'composition' => 'вискоза 80%, полиэстер 20%',
         'color' => 'чёрный в белый горошек'
       ]),
-      'params' => json_encode([
-        'size' => ['42', '44', '46', '48'],
+      'sizes' => json_encode([
+        'sizes' => ['42', '44', '46', '48'],
         'height' => '165 см'
       ]),
 
@@ -141,8 +141,8 @@ TEXT_BLOCK
         'composition' => 'вискоза 80%, полиэстер 20%',
         'color' => 'чёрный в белый горошек'
       ]),
-      'params' => json_encode([
-        'size' => ['42', '44', '46', '48'],
+      'sizes' => json_encode([
+        'sizes' => ['42', '44', '46', '48'],
         'height' => '165 см'
       ]),
 
