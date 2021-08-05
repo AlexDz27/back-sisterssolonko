@@ -26,7 +26,7 @@ TEXT_BLOCK
 
       'display_photo' => 'woman-1_1.jpg',
       'second_display_photo' => 'woman-2_3.jpg',
-      'photos' => json_encode(['woman-1_1.jpg']),
+      'photos' => ['woman-1_1.jpg'],
 
       'description' => self::DESCRIPTION,
       'details' => json_encode([
